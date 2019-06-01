@@ -2,6 +2,7 @@
 # See REAd
 def fizzbuzz(int)
   if (int % 5 == 0) && (int % 3 == 0)
-    return "fizzbuzz"
-  elsif int
+    return "Fizzbuzz"
+  elsif int % 3 == 0 
+    return "Frizz"
 end
